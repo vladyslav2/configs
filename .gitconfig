@@ -1,0 +1,6 @@
+[user]
+        email = vladyslav@mail.us
+        name = vladyslav
+
+[credential]
+        helper = cache
