@@ -46,7 +46,7 @@ mkdir /var/log/celery
 
 # 777 thas actually pretty pretty bad !!!!
 chmod 777 /var/log/celery# thats insane! Fix that
-mkdir /var/log/uwgi
+mkdir /var/log/uwsgi
 
 cp -rf /home/outloud/embray-virtualenvwrapper-csh-981ec27e32b3/virtualenvwrapper* /usr/local/lib/python2.7/site-packages/
 # Move set workon home to default csh variable for all users
@@ -59,3 +59,13 @@ portmaster mail/spamassassin # install with postgre SQL
 
 
 portmaster sysutils/rsnapshot
+
+
+# Adding users by default
+pw useradd vladyslav_t -m -G wheel,www
+pw useradd isit -m -G wheel,www
+pw useradd venv -m -G www
+pw useradd aaaron -m -G www
+pw useradd david -m -G www
+pw useradd alexey -m -G www
+pw useradd ruslan -m -G www
