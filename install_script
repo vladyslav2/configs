@@ -1,0 +1,61 @@
+# Installing zfs system
+zfs set compression=lz4 tank/home
+zfs set compression=lz4 tank/usr
+zfs set compression=lz4 tank/usr/local
+
+
+# updating posts
+portsnap fetch
+portsnap extract
+
+# Installing portmaster
+cd /usr/ports/ports-mgmt/portmaster && make && make install
+portmaster -ad
+
+portmaster editors/vim
+# Install webserver, nginx  + python + databases
+portmaster www/nginx-devel
+# Fixes for bash
+echo 'fdesc   /dev/fd         fdescfs         rw      0       0' >> /etc/fstab # need for bash
+
+# Don't know why, python does not want to get install without that flag
+echo 'FORCE_PKG_REGISTER=yes' >> /etc/make.conf
+portmaster graphics/jpeg
+portmaster graphics/openjpeg
+portmaster lang/python27
+portmaster databases/mariadb100-server
+portmaster databases/postgresql94-server
+portmaster www/uwsgi
+
+# Fix mysql datetime field
+mysql_tzinfo_to_sql /usr/local/lib/python2.7/site-packages/pytz/zoneinfo |  mysql -u root mysql
+mysql -u root -p -e "flush tables;" mysql 
+
+# ToDo
+# and we need to install root CA-certificates, i cannot find them in ports :(
+
+# Lets do install all developers tools
+portmaster devel/py-virtualenvwrapper
+portmaster  devel/git
+
+# Default configs for vim, .csh and others
+cd; git clone https://github.com/vladyslav2/configs
+portmaster sysutils/py-supervisor
+portmaster security/sudo
+mkdir /var/log/celery
+
+# 777 thas actually pretty pretty bad !!!!
+chmod 777 /var/log/celery# thats insane! Fix that
+mkdir /var/log/uwgi
+
+cp -rf /home/outloud/embray-virtualenvwrapper-csh-981ec27e32b3/virtualenvwrapper* /usr/local/lib/python2.7/site-packages/
+# Move set workon home to default csh variable for all users
+setenv WORKON_HOME /home/venv/envs
+mkdir /var/log/nginx
+
+# we do need spamassasin for counting spam rate on emails
+portmaster mail/exim # install with postgre SQL
+portmaster mail/spamassassin # install with postgre SQL
+
+
+portmaster sysutils/rsnapshot
