@@ -1,6 +1,9 @@
 [user]
-        email = vladyslav@mail.us
+        email = vladyslav@webdevelop.pro
         name = vladyslav
 
 [credential]
         helper = cache
+
+[core]
+	pager = less -r
