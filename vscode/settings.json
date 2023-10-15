@@ -1,0 +1,55 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.fontSize": 13,
+    "editor.autoClosingBrackets": "never",
+    "editor.parameterHints.enabled": false,
+    
+    "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+    "editor.wordBasedSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "on",
+
+    "go.toolsManagement.autoUpdate": true,
+    "go.languageServerExperimentalFeatures": {
+      "documentLink": false
+    },
+    "editor.quickSuggestionsDelay": 800,
+    "editor.tabSize": 2,
+    "html.autoClosingTags": false,
+    "html.autoCreateQuotes": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "python.linting.banditEnabled": true,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.hover.enabled": true,
+    "html.hover.documentation": false,
+    "html.hover.references": false,
+    "html.suggest.html5": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.hover.delay": 1500,
+    "workbench.hover.delay": 3500,
+    "go.gopath": "/opt/homebrew/bin",
+    "editor.suggest.selectionMode": "never",
+    "files.eol": "\n",
+    "git.openRepositoryInParentFolders": "always"
+}
