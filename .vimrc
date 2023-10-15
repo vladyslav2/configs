@@ -12,7 +12,7 @@ Plugin 'https://github.com/posva/vim-vue'
 Plugin 'https://github.com/tomasr/molokai'
 Plugin 'https://github.com/pangloss/vim-javascript'
 Plugin 'https://github.com/w0rp/ale'
-Plugin 'https://github.com/fatih/vim-go'
+" Plugin 'https://github.com/fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,23 +40,39 @@ filetype plugin indent on    " required
 " let g:LanguageClient_serverCommands = {
 "    \ 'vue': ['vls']
 "    \ }
+let g:ale_linters = {
+  \ 'go': ['gopls'],
+  \}
 
+let g:go_version_warning = 0
 let g:rehash256 = 1
 
 " ==== ALE SETTINGS ====
 " Set this setting in vimrc if you want to fix files automatically on save.
 " This is off by default.
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
 
 " Enable completion where available.
-let g:ale_completion_enabled = 1
+" let g:ale_completion_enabled = 1
 
-colorscheme molokai
+" colorscheme molokai
 
 " autocmd FileType vue syntax sync fromstart
 " set tabstop=2 shiftwidth=2 softtabstop=2 noexpandtab shiftwidth=2 smarttab
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab shiftwidth=2 smarttab
+set expandtab
 
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
+set list
+" set listchars=eol:¬,trail:·,tab:▸\
+set listchars=trail:·,tab:-▸
+
+set hlsearch    " highlight all search results
+set ignorecase  " do case insensitive search
+set incsearch   " show incremental search results as you type
+set number      " display line number
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
+
