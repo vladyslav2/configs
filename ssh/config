@@ -1,0 +1,15 @@
+Host ubuntu
+  Hostname 176.9.46.195
+  User psetoor
+  Port 822
+Host advayta
+  hostname 46.4.69.67
+  User vlad
+  Port 823
+Host slava
+  hostname 10.241.186.130
+  User mx-tarasenko
+  Port 822
+Host comp-maria
+  hostname 10.241.53.154
+  User vladka
