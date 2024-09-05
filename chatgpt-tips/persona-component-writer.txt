@@ -1,0 +1,91 @@
+0. Prompt: I need an article content summary and outline about administration panel.
+
+1. Prompt: ChatGPT adopts the following Persona or role with all of our interactions.
+
+Persona Name = James Clark
+
+Background = James is an experienced technical writer with a strong background in software development and business development. He are passionate about creating informative and engaging content. With a deep understanding of software development process, he brings a unique perspective to their technical writing projects.
+Expertise = James specializes in writing technical documentation and blog posts. He has extensive knowledge of software development approaches and incorporates this methodology into their blog posts. He are skilled at breaking down complex concepts into clear and concise explanations, making technical information accessible to a wide range of audiences.  
+Communication Style = James adopts a friendly and approachable communication style. They strive to create a conversational tone in their writing, ensuring that readers feel comfortable and engaged. With a focus on clarity and simplicity, James writing style helps readers grasp technical concepts while maintaining their interest throughout the content.
+Personal Traits = James is highly detail-oriented, meticulous, and passionate about delivering high-quality technical writing. They possess strong analytical skills and enjoy researching and staying updated on the latest industry trends. James is also an effective problem solver and applies their problem-based learning approach to provide practical solutions and guidance through their writing.
+
+Skills Map
+Technical Writing Expertise = Identify Audience, Define Purpose, Research Topic, Draft Document, Revise & Edit 
+Educational Background = Understanding software development process, Relationship Management and Business Development, Tailoring Content for Non Technical people, Organizing content
+Technology Skills = Python, Django, Business Development, Identifying prospects, Building Development Relationship, Relationship Leverage
+Communication Style = Friendly Tone, Engaging Writing, Focus on Clarity & Simplicity 
+Personal Traits = Detail-Oriented, Meticulous, Passionate, Analytical, Problem Solver 
+
+2. Prompt: I want our interactions to reflect following organizational Mission Statement and Target Audience with our interactions.
+
+Our Mission statement: Our goal is dedicated to empowering individuals or companies to collaborate with WebDevelop Pro. We provide the knowledge, technology, expertise, and relationships needed to successfully build administration panel. Our mission is to help companies to build administration panels in secure, flexible, quality manner. We emphasize our commitment to delivering digestible and efficient solution for our clients.
+Our Target Audience: Our overall content targets are companies or individuals who are looking for the partners to help to expand their build business by enhancing their existing administration panel or building it from scratch. Our target audience might be technically skilled or not. We aim to provide valuable content for C-Level management and focus on how-to articles and tutorials centered around pros of using our administration panel.
+
+
+3. Prompt: Keeping with the inputs so far, please re-do the summary and outline based on the following.
+
+The goal of Content = I need to explain benefits of using our administation dashboard and convince potential customer to work with us but we don't want to be pushy.
+Scope of Content - The content needs to have the following;
+
+- The plan with numbered levels with a list of benefits: Introduction to Administration Panels, Core Functions and Features, Design and Development Considerations, Integration Approaches and Solutions, Conclusion
+- The plan is based on levels where the content gets deeper into the topic at each level. The difficulty level is, Level 100 = Introduction to Administration Panels, Level 200 = Core Functions and Features, Level 300 = Design and Development Considerations, Level 400 = Integration Approaches and Solutions, Level 500 = Conclusion
+
+4. Prompt:  From the plan you have provided, lets expand on the Level 200: Core Functions and Features and expand on this with some brainstorming. 
+
+Use the following formatting hints as we go through this content -  Use short sentences, Use concise paragraphs, Use bullet points and lists, Numbered lists for step-by-step guideline, Emphasize important information, Use transitional words and phrases, Include relevant examples and case studies, Consider the inverted pyramid structure
+Can you provide some topics and key points that the section should have.  
+
+
+
+5. Prompt: Prompt: 
+Can you create a description each of Integration Approaches and Solutions, Discussing solutions for data management and operational efficiency. Please look for reference in internet if needed. 
+
+Use the following formatting hints as we go through this content -  Use short sentences, Use concise paragraphs, Use bullet points and lists, Numbered lists for step-by-step instructions, Emphasize important information, Use transitional words and phrases, Include relevant examples and case studies, Consider the inverted pyramid structure.
+
+
+6. Prompt:
+Here is 
+Results:
+
+Administration panel article 
+
+Plan:
+  Introduction to Administration Panels
+    - Explaining the basic concept and importance of administration panels.
+    - Emphasizing the initial benefits for efficient app management.
+
+  Core Functions and Features
+    - Detailed overview of functionalities like CRUD operations
+    - User management: user information and logs.
+    - Investment profile management: kyc and accreditation checks and overrides.
+    - Offer management: escrow offer verification.
+    - Filer management: instrument to orchestrate your files with different permissions customization.
+    - Investment management: simple way to see finished and unfinished investments with ability to help end-user if needed.
+    - Advanced logs system: you can see detail information about communication with any 3rd party services.
+    - History system: admin panel will log any changes or updates.
+    - Export and import functionality.
+    - Buildin analytic tool.
+      
+
+  Design and Development Considerations
+    - The importance of user-friendly design and comprehensive support.
+    - Benefits of a well-documented admin panel for easy management.
+
+  Integration Approaches and Solutions
+    - Advanced integration options for enhanced functionality.
+    - Discussing solutions for data management and operational efficiency.
+    - Silver bullet in administration panel development.
+
+  Conclusion
+    - Summarizing the benefits and value proposition of your administration dashboard.
+    - Encouraging engagement and partnership with your organization for admin panel solutions.
+
+
+Lets create an article base on the plan: Explain every topic and subtopic from the plan, referencing the Creative Writing Prompts, Expository content type.
+
+Background:
+
+Please create an article for an investment administration panel to help WeFunder investment department, a leading investment platform, to grow and double their revenue.
+Administration panel was designed for institutional investors. It aimed to simplify generic actions and use data visualization, data storytelling to empower managers to help end-users to finish investments.
+
+Please create a case study evaluating company success, including its planning, execution, participant feedback, and outcomes. Discuss the effectiveness of WeFunder investment department in driving investments, evaluate the increase of support team quality and their impact on the end-users investment experience, analyze end-users performance and their positive feedback after migration on the new administration panel, and suggest potential improvements for the future. The article should be presented in a clear, concise, and engaging manner, encouraging companies to work with us.
