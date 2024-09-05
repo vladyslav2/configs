@@ -32,7 +32,6 @@
     "html.autoClosingTags": false,
     "html.autoCreateQuotes": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "python.linting.banditEnabled": true,
     "editor.suggestOnTriggerCharacters": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.hover.enabled": true,
@@ -41,15 +40,19 @@
     "html.suggest.html5": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "[python]": {
-        "editor.formatOnType": true
-    },
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
     "editor.hover.delay": 1500,
     "workbench.hover.delay": 3500,
-    "go.gopath": "/opt/homebrew/bin",
+    "go.gopath": "/usr/local/go/bin",
     "editor.suggest.selectionMode": "never",
     "files.eol": "\n",
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
 }
