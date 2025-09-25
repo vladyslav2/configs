@@ -1,15 +1,39 @@
-Host ubuntu
-  Hostname 176.9.46.195
-  User psetoor
-  Port 822
-Host advayta
+Host barcelona-station
+	hostname 10.241.40.151
+	User adams
+	Port 22
+
+Host advayta_old
   hostname 46.4.69.67
   User vlad
   Port 823
+
 Host slava
   hostname 10.241.186.130
   User mx-tarasenko
   Port 822
+
 Host comp-maria
   hostname 10.241.53.154
   User vladka
+
+Host adams
+  hostname 192.168.0.35
+  User adams
+
+Host advayta
+  hostname 136.243.10.105
+  User root
+  Port 822
+
+Host alpha
+  Hostname 78.46.85.62
+  User root
+  Port 822
+
+# Account 1 - Personal
+Host github.com-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_github_personal
+  IdentitiesOnly yes
