@@ -3,6 +3,7 @@ apt-get install -y awesome awesome-extra redshift
 apt-get install -y zerotier-one
 # interesting torrent tracker with browser ui
 apt-get install -y qbittorrent-nox
+apt install ripgrep
 
 # snyk
 curl --compressed https://static.snyk.io/cli/latest/snyk-linux -o snyk
@@ -17,7 +18,7 @@ apt-get install -y bc
 
 
 # ethereum
-curl -L https://github.com/ethereum/solidity/releases/download/v0.8.30/solc-static-linux -o solc; chmod +x solc; mv solc $HOME/bin
+curl -L https://github.com/ethereum/solidity/releases/download/v0.8.34/solc-static-linux -o solc; chmod +x solc; mv solc $HOME/bin
 # foundry
 curl -L https://foundry.paradigm.xyz | bash
 echo 'PATH=$PATH:$HOME/.foundry/bin' >> ~/.zshrc
@@ -45,7 +46,7 @@ apt-get install neovim vim-ale
 wget -O ~/bin/obsidian https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/Obsidian-1.6.7.AppImage && chmod +x ~/bin/obsidian
 
 # go as a user
-rm -rf ~/go; wget -O /tmp/go1.23.1.tgz https://go.dev/dl/go1.23.1.linux-amd64.tar.gz && tar -C ~/ -xzf /tmp/go1.23.1.tgz
+rm -rf ~/go; wget -O /tmp/go.tgz https://go.dev/dl/go1.26.1.linux-amd64.tar.gz && tar -C ~/ -xzf /tmp/go.tgz
 
 # install qemu for multi arch build
 apt get install -y qemu-user-static binfmt-support
